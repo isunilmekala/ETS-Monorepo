@@ -1,0 +1,8 @@
+<!-- <ets-nx-welcome></ets-nx-welcome> <router-outlet></router-outlet> -->
+
+<ets-banner title="Welcome to the store!"> </ets-banner>
+<ul>
+  <li *ngFor="let product of products">
+    <strong>{{ product.name }}</strong> Price: {{ product.price }}
+  </li>
+</ul>
