@@ -7,5 +7,6 @@ import { exampleProducts } from '@ets/products';
   styleUrls: ['./app.component.scss'],
 })
 export class AppComponent {
+  title = 'ets';
   products = exampleProducts;
 }

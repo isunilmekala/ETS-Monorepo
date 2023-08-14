@@ -31,7 +31,7 @@
       "inputs": [
         "default",
         "^production",
-        "{workspaceRoot}/jest.preset.js"
+        "{workspaceRoot}/jest.preset.js"  
       ]
     },
     "e2e": {
@@ -76,7 +76,8 @@
       "unitTestRunner": "jest"
     },
     "@nx/angular:component": {
-      "style": "scss"
+      "style": "scss",
+      "linter": "eslint"
     }
   }
 }
